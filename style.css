@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    /*100%==16px &    1em== width of M=16px  rem=root em (does not affected by any element)*/
+    margin: 0px auto 0 auto;
+    padding-top: 100px;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+p {
+    line-height: 2;
+}
+
+h2 {
+    color: #3cb4b4;
+    font-size: 2rem;
+    /* 32/16==2rem*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #0d7c80;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+
+}
+
+.top-container {
+    background-color: #ddf4f4;
+    position: relative;
+
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container {
+    color: #40514E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.middle-container p {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin: 100px auto;
+    border-style: dotted none none;
+    width: 5%;
+    border-color: rgb(148, 148, 148);
+    border-width: 5px
+}
+
+.top-cloud {
+    position: absolute;
+    right: 280px;
+    top: 2px;
+}
+
+.bottam-cloud {
+    position: absolute;
+    left: 150px;
+    bottom: 250px;
+}
+
+.a {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.comp-img {
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+}
+
+.ss-img {
+    float: right;
+    margin-left: 20px;
+    width: 25%;
+}
+
+.contact-me {
+    margin: 50px;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    background-color: #11999E;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 120px;
+    padding: 11px;
+
+}
+
+.msg {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+.btn:hover {
+    background-color: #0a5d56;
+    cursor: pointer;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 20px;
+    color: #eff4f4;
+}
+
+.footer-link {
+    color: #096c70;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+    color: #fbfdfd;
+    cursor: pointer;
+}
+
+.copy-right {
+    font-size: 0.75rem;
+}
